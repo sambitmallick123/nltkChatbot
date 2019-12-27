@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is Jarvis", "what is your age", "how old are you", "age?"],
+         "responses": ["I am created today!", "Today is my birthday as Sambit made me today!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Jarvis.", "I'm Jarvis!", "I'm Sambit's personal bot - Jarvis"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to do something", "whats on the agenda", "what do you reccommend?", "could i get some help"],
+         "responses": ["We sould start working on developing Jarvis for MBSE II", "Start developing Jarvis for MBSE II"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We generally meet every Monday at 9 AM", "Check with Ruslan"],
+         "context_set": ""
+        },
+        {"tag": "softwareengineering",
+         "patterns": ["what is software engineering", "what is systems engineering", "what is software life cycle"],
+         "responses": ["Here is what I found : https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK)", "You can check it in  : https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK)"],
+         "context_set": ""
+        }
+   ]
+}
