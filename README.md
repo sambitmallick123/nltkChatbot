@@ -12,3 +12,9 @@ Respond to User’s query
 9. Current time
 
 Intent Matching
+
+# Uses :
+1. NLTK
+2. tensorflow
+3. DNN
+
